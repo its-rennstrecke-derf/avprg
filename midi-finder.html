@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="style.css">
 <title>MIDI-Finder</title>
 </head>
-<body>
 
+<body>
 <h1>Type in MIDI Note to get the Frequency</h1>
 
-<input type = "text" id = "note"><br>
-MIDI Note Number:
-<button id="myButton">click to convert</button>
-<div id ="outputText"></div>
+<form class ="center">
+    MIDI Note Number: 
+    <input type = "text" id = "note"><br><br>
+    <button id="myButton">click to convert</button>
+    <div id ="outputText"></div>
+</form>
 
 <script src="converter.js"></script>
-
 </body>
 </html>
